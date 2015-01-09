@@ -54,3 +54,23 @@ html {
 .img-border {
     border: solid 1px #4f9bd5;
 }
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: block;
+    background-color: #4f9bd5;
+    text-decoration: none;
+}
+
+.nav a,
+.nav a:link,
+.nav a:active {
+    background-color: #85bce6;
+}
+
+.current {
+    background-image: url("../imges/nav-bottom-right.svg"), url("../imges/nav-top-right.svg");
+    position: bottom right, left top;
+    background-repeat: no-repeat;
+}
