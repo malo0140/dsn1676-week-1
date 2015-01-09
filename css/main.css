@@ -45,3 +45,12 @@ html {
     background: black;
     text-shadow: 3px 3px 0 #4f9bd5;
 }
+
+.img-flex {
+    display: block;
+    width: 100%;
+}
+
+.img-border {
+    border: solid 1px #4f9bd5;
+}
