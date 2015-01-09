@@ -18,12 +18,13 @@ html {
 }
 
 .logo {
-    width: 3em;
+    width: 1.1em;
     vertical-align: middle;
+    margin: 0 0.2em 0 0;
 }
 
 .masthead {
-    background: transparent url("../img/masthead-bg.png") repeat left center;
+    background:transparent url("../imges/masthead-bg.png")repeat left center;  
     text-align: center;
 }
 
@@ -37,4 +38,10 @@ html {
 
 .nav {
     list-style-type: none;
+}
+
+.title {
+    display: inline-block;
+    background: black;
+    text-shadow: 3px 3px 0 #4f9bd5;
 }
