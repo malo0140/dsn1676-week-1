@@ -16,3 +16,25 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.logo {
+    width: 3em;
+    vertical-align: middle;
+}
+
+.masthead {
+    background: transparent url("../img/masthead-bg.png") repeat left center;
+    text-align: center;
+}
+
+.background-color {
+    background: black;
+}
+
+.white {
+    color: white;
+}
+
+.nav {
+    list-style-type: none;
+}
