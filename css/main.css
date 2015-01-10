@@ -36,8 +36,33 @@ html {
     color: white;
 }
 
+a,
+a:link,
+a:visited {
+    color: #fff;
+}
+
 .nav {
+    padding: 0;
     list-style-type: none;
+}
+
+.nav li {
+    margin-bottom: 4px;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: block;
+    background-color: #4f9bd5;
+    text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+    background-color: #85bce6;
 }
 
 .title {
@@ -55,22 +80,9 @@ html {
     border: solid 1px #4f9bd5;
 }
 
-.nav a,
-.nav a:link,
-.nav a:visited {
-    display: block;
-    background-color: #4f9bd5;
-    text-decoration: none;
-}
-
-.nav a,
-.nav a:link,
-.nav a:active {
-    background-color: #85bce6;
-}
-
 .current {
-    background-image: url("../imges/nav-bottom-right.svg"), url("../imges/nav-top-right.svg");
-    position: bottom right, left top;
+    background-image: url("../imges/nav-top-right.svg"), url("../imges/nav-bottom-right.svg");
+    background-position: left top, right bottom; 
     background-repeat: no-repeat;
+    background-size: 20px 20px, 23px 23px;
 }
