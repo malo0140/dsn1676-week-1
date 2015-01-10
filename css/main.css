@@ -84,5 +84,12 @@ a:visited {
     background-image: url("../imges/nav-top-right.svg"), url("../imges/nav-bottom-right.svg");
     background-position: left top, right bottom; 
     background-repeat: no-repeat;
-    background-size: 20px 20px, 23px 23px;
+    background-size: 13px 13px, 25px 25px;
 }
+
+.panel {
+    border-image: url("../imges/panel-boarder.png") 34 36 36 36 stretch stretch;
+    border-width: 36px 36px 36px 36px;
+ 
+}
+    
